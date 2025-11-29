@@ -31,5 +31,5 @@ jobs:
         run: python -m unittest discover -s tests -p "test_*.py"
 
       - name: Run pipeline script (smoke test)
-        run: python pipeline.py
+        run: python ml_pipeline.py
 

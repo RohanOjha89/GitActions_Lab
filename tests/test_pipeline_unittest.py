@@ -1,6 +1,6 @@
 # tests/test_pipeline_unittest.py
 import unittest
-from pipeline import train_and_score_model
+from ml_pipeline import train_and_score_model
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 
