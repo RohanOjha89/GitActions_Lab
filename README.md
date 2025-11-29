@@ -17,6 +17,7 @@ This project is a minimal ML workflow that:
 All of this is packaged inside a Docker container, automatically built and pushed by GitHub Actions.
 
 ### Repository Structure
+```bash
 GitActions_Lab/
 │
 ├── ml_pipeline.py                 # ML training pipeline
@@ -30,6 +31,7 @@ GitActions_Lab/
 └── .github/
     └── workflows/
         └── ci.yml                 # CI/CD pipeline (GitHub Actions)
+```
 
 ### CI/CD Workflow
 **Continuous Integration (CI)**
