@@ -1,4 +1,10 @@
 # tests/test_pipeline_unittest.py
+import os
+import sys
+
+# Add repo root to Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import unittest
 from ml_pipeline import train_and_score_model
 from sklearn.datasets import fetch_california_housing
