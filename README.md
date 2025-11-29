@@ -78,7 +78,7 @@ This will:
 No Python setup. No dependencies. No repo cloning.
 
 ### Secrets & CD Setup
-The CD workflow expects two GitHub Actions secrets:
-**DOCKERHUB_USERNAME**
-**DOCKERHUB_TOKEN**
+The CD workflow expects two GitHub Actions secrets:<br>
+**DOCKERHUB_USERNAME** <br>
+**DOCKERHUB_TOKEN** <br>
 A Docker Hub Access Token with read/write permissions.
